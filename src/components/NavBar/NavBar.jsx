@@ -8,8 +8,8 @@ export default function NavBar() {
                     <img style={{ width: '96px' }} src="/public/icon/icoremar_logo.png" className="logo icoremar" alt="logo" />
                     <span style={{ fontSize: '32px' }}>iCoremar</span>
                 </a>
-                <div className="collapse navbar-collapse" id="navbarNav" style={{ alignItems: "center" }}>
-                    <ul className="navbar-nav" style={{ justifyContent: "flex-end" }}>
+                <div className="collapse navbar-collapse" id="navbarNav" style={{ alignItems: "center", justifyContent: "flex-end" }}>
+                    <ul className="navbar-nav" >
                         <li className="nav-item">
                             <a className="nav-link" href="#">Oficina</a>
                         </li>
@@ -19,9 +19,6 @@ export default function NavBar() {
                         <li className="nav-item">
                             <a className="nav-link" href="#">Digitalización</a>
                         </li>
-                        {/* <li className="nav-item">
-                            <a className="nav-link badge text-bg-secondary" style={{ fontSize: "25px" }} href="#">Contacto</a>
-                        </li> */}
                         <li className="nav-item">
                             <CartWidget amount={10} />
                         </li>
