@@ -11,13 +11,13 @@ export default function NavBar() {
                 <div className="collapse navbar-collapse" id="navbarNav" style={{ alignItems: "center", justifyContent: "flex-end" }}>
                     <ul className="navbar-nav" >
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Oficina</a>
+                            <a className="nav-link" href="#">Quienes Somos</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Computación</a>
+                            <a className="nav-link" href="#">Contacto</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Digitalización</a>
+                            <a className="nav-link" href="#">Login</a>
                         </li>
                         <li className="nav-item">
                             <CartWidget amount={10} />

@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <NavBar/>
-      <hr />
+      {/* <hr /> */}
       <ItemListContainer greeting="Bienvenidos a Inversiones Coremar"/>
     </>
   )
