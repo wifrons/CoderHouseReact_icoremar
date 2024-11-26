@@ -39,7 +39,7 @@ export default function Checkout() {
                         </div>
                     </div>
 
-                    <button type='submit' className="btn btn-primary">Confirmar</button>
+                    <button type="submit" className="btn btn-primary">Confirmar</button>
                 </form>
             </div>
         </div>
