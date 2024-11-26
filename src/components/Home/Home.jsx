@@ -16,7 +16,7 @@ export default function Home({ greeting, color }) {
                     <Link className="nav-link" to="/category/office">Ver mas</Link>
                 </div>
                 <div className="productsOfi-image">
-                    <img src="icoremar_ofi.png" alt="" id="productsOfi-img" />
+                    <img src="/CoderHouseReact_icoremar/icoremar_ofi.png" alt="" id="productsOfi-img" />
                 </div>
             </div>
             <div className="productsCom">
@@ -27,7 +27,7 @@ export default function Home({ greeting, color }) {
                     <Link className="nav-link" to="/category/computer">Ver mas</Link>
                 </div>
                 <div className="productsCom-image">
-                    <img src="icoremar_compu.png" alt="" id="productsCom-img" />
+                    <img src="/CoderHouseReact_icoremar/icoremar_compu.png" alt="" id="productsCom-img" />
                 </div>
             </div>
             <div className="productsCop">
@@ -37,7 +37,7 @@ export default function Home({ greeting, color }) {
                     <Link className="nav-link" to="/category/copycenter">Ver mas</Link>
                 </div>
                 <div className="productsCop-image">
-                    <img src="icoremar_copy.png" alt="" id="productsCop-img" />
+                    <img src="/CoderHouseReact_icoremar/icoremar_copy.png" alt="" id="productsCop-img" />
                 </div>
             </div>
 
