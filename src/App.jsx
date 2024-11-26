@@ -8,7 +8,7 @@ import Checkout from "./components/Checkout/Checkout"
 
 export default function App() {
   return (
-    <BrowserRouter >
+    <BrowserRouter basename="CoderHouseReact_icoremar">
       <NavBar title="iCoremar" />
       <Routes>
         <Route path="/" element={<Home greeting="Bienvenidos a Inversiones Coremar" />} />
