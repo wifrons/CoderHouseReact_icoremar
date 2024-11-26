@@ -8,9 +8,9 @@ export default function Cart() {
       <div className="container align-middle" style={{ width: 400 }}>
         <ul class="list-group">
           <li class="list-group-item">producto 1</li>
-          <li class="list-group-item">producto 1</li>
-          <li class="list-group-item">producto 1</li>
-          <li class="list-group-item">producto 1</li>
+          <li class="list-group-item">producto 2</li>
+          <li class="list-group-item">producto 3</li>
+          <li class="list-group-item">producto 4</li>
         </ul>
         <Link className="btn btn-primary" to='/checkout'>Comprar</Link>
       </div>
