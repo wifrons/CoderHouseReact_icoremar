@@ -1,3 +1,8 @@
 .navbar-expand-lg .navbar-collapse{
     justify-content:flex-end;;
 }
+
+.nav-link a { 
+    color: red !important;
+    text-decoration: underline !important;
+  }
