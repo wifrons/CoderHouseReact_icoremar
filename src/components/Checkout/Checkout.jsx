@@ -1,5 +1,17 @@
+import { Link } from "react-router-dom"
+import Swal from "sweetalert2"
+import withReactContent from "sweetalert2-react-content"
+import Home from "../Home/Home"
 
 export default function Checkout() {
+
+
+    const swalme = () => {
+        Swal.fire("Gracias!!!")
+        .then((result) => {
+            if (result.isConfirmed) {""}
+        })        
+    }
 
     return (
         <div>
@@ -39,8 +51,10 @@ export default function Checkout() {
                         </div>
                     </div>
 
-                    <button type="submit" className="btn btn-primary">Confirmar</button>
                 </form>
+
+                <button onClick={swalme} className="btn btn-primary">Confirmar</button>
+                {/* <Link onClick={swalme} className="btn btn-primary" to={"/"} >Confirmar</Link> */}
             </div>
         </div>
     )

@@ -19,7 +19,9 @@ export default function ItemListContainer() {
     return (
         <div>
             <h2 className="text-center">Los mejores productos disponibles a precios increíbles</h2>
-            <ItemList products={products}/>
+            {products 
+                ? <ItemList products={products}/> 
+                : <span>Yoliiii</span> }
         </div>
     )
 }
