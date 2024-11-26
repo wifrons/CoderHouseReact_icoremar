@@ -6,8 +6,6 @@ export default function NavBar({ title }) {
 
     const urlLocation = useLocation();
     const selectedLink = (path) => urlLocation.pathname === path;
-    // console.log(urlLocation);
-
     return (
 
         <nav className="navbar navbar-expand-lg bg-body-tertiary">
@@ -26,8 +24,7 @@ export default function NavBar({ title }) {
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <Link className={`nav-link ${selectedLink("/") ? "active" : ""}`} 
-                            to="/">Inicio</Link>
+                            <Link className="nav-link" to="/">Inicio</Link>
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link" to="/category/office">Oficina</Link>
@@ -41,9 +38,6 @@ export default function NavBar({ title }) {
                         <li>
                             <Link className="nav-link" to="/"><span className="glyphicon glyphicon-user"></span> Ingresar</Link>
                         </li>
-                        {/* <li className="nav-item">
-                            <Link className="nav-link" to="/">Login</Link>
-                        </li> */}
                         <li className="nav-item">
                             <CartWidget amount={10} />
                         </li>
