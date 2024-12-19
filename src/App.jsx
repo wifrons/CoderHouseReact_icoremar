@@ -5,8 +5,7 @@ import Home from "./components/Home/Home"
 import ItemDetailContainer from "./components/ItemDetailContainer/ItemDetailContainer"
 import Cart from "./components/Cart/Cart"
 import Checkout from "./components/Checkout/Checkout"
-import { CartProvider } from "./Context/CartContext"
-
+import { CartProvider } from "./context/CartContext"
 
 export default function App() {
   return (
