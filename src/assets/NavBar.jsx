@@ -1,12 +1,13 @@
 import { Link, useLocation } from "react-router-dom";
 import CartWidget from "../CartWidget/CartWidget";
 import '../NavBar/NavBar.css'
+import { useCart } from "../hooks/useCart";
 
 export default function NavBar({ title }) {
 
     const urlLocation = useLocation();
     const selectedLink = (path) => urlLocation.pathname === path;
-    // console.log(urlLocation);
+    const { totalQuantity } = useCart();
 
     return (
 
@@ -26,8 +27,8 @@ export default function NavBar({ title }) {
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <Link className={`nav-link ${selectedLink("/") ? "active" : ""}`} 
-                            to="/">Inicio</Link>
+                            <Link className={`nav-link ${selectedLink("/") ? "active" : ""}`}
+                                to="/">Inicio</Link>
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link" to="/category/office">Oficina</Link>
@@ -41,11 +42,9 @@ export default function NavBar({ title }) {
                         <li>
                             <Link className="nav-link" to="/"><span className="glyphicon glyphicon-user"></span> Ingresar</Link>
                         </li>
-                        {/* <li className="nav-item">
-                            <Link className="nav-link" to="/">Login</Link>
-                        </li> */}
+
                         <li className="nav-item">
-                            <CartWidget amount={10} />
+                            <CartWidget amount={totalQuantity} />
                         </li>
                     </ul>
                 </div>

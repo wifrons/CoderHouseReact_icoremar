@@ -1,8 +1,30 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+<div style="width: 30%; height: 30%">
+  
+![](src/assets/icon/icoremar_logo.svg)
+  
+</div>
+Inversiones Coremar
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Somos empresa dedicada al servicio de nuestros clientes
+
+Nuestros Productos y Servicios:
+
+- **Oficina**
+Venta de Artículos para tu oficina y eleva tu rendimiento.
+
+- **Computación**
+Venta de dispositivo electronico: Computadora, Impresora, Monitor y Accesorios.
+
+- **Digitalización**
+Servicios de Centro de copiado de alta calidad, Blanco/Negro y a Color.
+---
+
+👨‍💼**Autor**
+William Rodriguez
+
+📲 **Contacto**
+wifron@gmail.com
+---
+
