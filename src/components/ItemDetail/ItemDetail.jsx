@@ -1,11 +1,10 @@
 import { Link } from "react-router-dom";
 import ItemCount from "../ItemCount/ItemCount";
-import { useContext } from "react";
-import { CartContext } from "../../Context/CartContext";
+import { useCart } from "../../hooks/useCart";
 
 export default function ItemDetail({ id, name, img, description, category, price, stock }) {
 
-    const { addItemCart } = useContext(CartContext)
+    const { addItemCart } = useCart();
 
     //agrega el product al carrito
     const handleAdd = (quantity) => {
