@@ -10,7 +10,7 @@ import { CartProvider } from "./Context/CartContext"
 
 export default function App() {
   return (
-    <BrowserRouter basename="CoderHouseReact_icoremar">
+    <BrowserRouter >
       <CartProvider>
         <NavBar title="iCoremar" />
         <Routes>

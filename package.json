@@ -1,5 +1,4 @@
 {
-  "homepage": "https://wifrons.github.io/CoderHouseReact_icoremar",
   "name": "icoremar",
   "private": true,
   "version": "0.0.0",
@@ -9,6 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
